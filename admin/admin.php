@@ -5,7 +5,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     exit;
 }
 
-include_once 'db_connect.php';
+include_once './database/db_connect.php';
 
 // Handle form submissions to add new project
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['add_project'])) {

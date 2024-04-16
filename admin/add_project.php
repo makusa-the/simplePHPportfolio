@@ -1,6 +1,6 @@
 <?php
 // Include database connection
-include_once 'db_connect.php';
+include_once './database/db_connect.php';
 
 // Initialize variables
 $title = $description = $image = $link = '';

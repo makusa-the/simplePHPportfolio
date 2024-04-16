@@ -1,6 +1,6 @@
 <?php
 // Include database connection
-include_once 'db_connect.php';
+include_once './admin/database/db_connect.php';
 
 // Check if project ID is provided
 if (isset($_GET['id'])) {

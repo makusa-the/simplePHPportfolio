@@ -1,6 +1,6 @@
 <?php
 // Include database connection
-include_once 'db_connect.php';
+include_once './admin/database/db_connect.php';
 
 // Fetch projects
 $projects = mysqli_query($conn, "SELECT * FROM projects ORDER BY created_at DESC");

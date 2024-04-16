@@ -5,7 +5,7 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
     exit;
 }
 
-include_once 'db_connect.php';
+include_once './database/db_connect.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Validate registration form
