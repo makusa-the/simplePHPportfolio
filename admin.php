@@ -57,6 +57,7 @@ $skills = mysqli_query($conn, "SELECT * FROM skills");
     </header>
     <section id="add_project">
         <h2>Add Project</h2>
+        <a href="./add_project.php">Add p</a>
         <form action="" method="POST">
             <label for="title">Title:</label>
             <input type="text" name="title" required><br>
