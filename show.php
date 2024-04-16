@@ -49,11 +49,6 @@ if (isset($_GET['id'])) {
                     <p><strong>Link:</strong> <a href="<?php echo $project['link']; ?>" target="_blank"><?php echo $project['link']; ?></a></p>
                 </div>
                 <div class="card-footer">
-                    <a href="edit_project.php?id=<?php echo $project['id']; ?>" class="btn btn-primary">Edit</a>
-                    <form action="delete_project.php" method="POST" class="d-inline">
-                        <input type="hidden" name="id" value="<?php echo $project['id']; ?>">
-                        <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this project?')">Delete</button>
-                    </form>
                     <a href="index.php" class="btn btn-secondary">Back to Projects</a>
                 </div>
             </div>
